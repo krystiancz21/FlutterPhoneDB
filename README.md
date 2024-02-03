@@ -1,16 +1,8 @@
-# phonedb
+# FlutterPhoneDB
+FlutterPhoneDB to aplikacja umożliwiająca wykonanie operacji CRUD (Create, Read, Update, Delete) na danych o telefonach. Aplikacja korzysta z bazy danych SQLite. 
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Główne funkcjonalności obejmują:
+* **Dodanie nowego telefonu do bazy:** Użytkownik może wprowadzić informacje o producencie, modelu, wersji oprogramowania oraz dodać obrazek telefonu.
+* **Modyfikację istniejącego telefonu:** Pozwala na aktualizację danych o telefonie w bazie.
+* **Usunięcie telefonu z bazy:** Umożliwia usunięcie niepotrzebnych elementów z bazy danych.
+* **Wyświetlanie telefonów w bazie:** Prezentuje użytkownikowi listę dostępnych telefonów.
